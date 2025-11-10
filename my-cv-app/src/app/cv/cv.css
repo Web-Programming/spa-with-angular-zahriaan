@@ -1,5 +1,4 @@
-/* src/app/cv/cv.component.css */
-cv-container {
+.cv-container {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
