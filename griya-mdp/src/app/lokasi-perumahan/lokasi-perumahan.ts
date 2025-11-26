@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';  // ← Pastikan ada
+import { RouterLink } from '@angular/router';
 import { Housing } from './housing.model';
 
 @Component({
@@ -40,7 +40,7 @@ export class LokasiPerumahan {
     const emptyStars = 5 - fullStars - hasHalf;
     return Array(emptyStars).fill(0);
   }
-  
+
   // Format harga ke Rupiah
   formatPrice(price: number): string {
     return new Intl.NumberFormat('id-ID', {
